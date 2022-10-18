@@ -1,0 +1,15 @@
+body {
+  margin-top: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/fundo.png");
+  color: #f6eddc;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 30%;
+}

@@ -1,0 +1,48 @@
+@import "./style.css";
+
+#nomes {
+  font-size: 14px;
+  color: #dbdcdd;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+#jogo table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#jogo td {
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: #f6eddc;
+  display: inline-block;
+  padding: 10px;
+  font-size: 60px;
+  margin: 5px;
+  cursor: pointer;
+  color: #181419;
+}
+
+td > img {
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  z-index: 1;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: #dbdcdd;
+  background-color: #ab7d77;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}

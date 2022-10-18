@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/playerStyle.css">
+    <script src="js/players.js" defer></script>
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+    <div id="player">
+        <img src="./assets/logo.png" alt="">
+        <h2>Choose your fighter</h2>
+        <div class="container">
+            <form>
+                <div class="dog">
+                    <h3>Representando todos os doguinhos:</h3>
+                    <input type="text" id="player1" placeholder="Jogador 1">
+                </div>
+                <div class="x">
+                    <h1>X</h1>
+                </div>
+                <div class="cat">
+                    <h3>Representando todos os gatinhos:</h3>
+                    <input type="text" id="player2" placeholder="Jogador 2">
+                </div>
+
+            </form>
+        </div>
+        <input type="submit" onclick="saveNames()" name="Jogar" id="button">
+    </div>
+</body>
+
+</html>
